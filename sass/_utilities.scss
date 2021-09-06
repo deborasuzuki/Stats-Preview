@@ -1,0 +1,60 @@
+@mixin reset {
+  html {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color: $white;
+
+    width: 1440px;
+    height: 800px;
+    background-color: $darkBlue;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin card-size {
+  width: 1080px;
+  height: 446px;
+
+  flex-direction: row;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+@mixin web-banner {
+  background-color: $softViolet;
+  border-radius: 0 10px 10px 0;
+}
+
+@mixin imgColor {
+  border-radius: 0 10px 10px 0;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+}
+
+@mixin info-card {
+  width: 50%;
+  height: 100%;
+  padding: 70px 80px 60px 70px;
+  border-radius: 10px 0 0 10px;
+  background-color: $desaturedBlue;
+}
+
+@mixin sub-title {
+  font-family: 'Lexend Deca', sans-serif;
+  color: $transparenteWhite60;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  padding-top: 5px;
+}
