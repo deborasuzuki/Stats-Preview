@@ -23,4 +23,4 @@ HTML and Scss.
 
 See in:<a href="https://ds-statspreview.netlify.app/"> Stats Preview Card</a>
 
-![project_view](https://github.com/deborasuzuki/Sunnyside-Agency/blob/main/Project%20View.png)
+![project_view](https://github.com/deborasuzuki/Stats-Preview/blob/main/Project%20View.png)
